@@ -42,14 +42,14 @@ app.use("/images", express.static(path.join(__dirname, "../first-app/public/imag
 //     .catch(err => console.error('MongoDB connection error:', err));
 
 
-mongoose.connect("mongodb+srv://reactdeveloper:dJ1hifN8yk8kfSXj@cluster0.7agde2h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+mongoose.connect("mongodb+srv://reactdeveloper:dJ1hifN8yk8kfSXj@cluster0.7agde2h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 //     , {
 //     useNewUrlParser: true,
 //     useUnifiedTopology: true
 // } 
-)
-    .then(() => console.log('MongoDB connected successfully'))
-    .catch(err => console.error('MongoDB connection error:', err));
+
+    // .then(() => console.log('MongoDB connected successfully'))
+    // .catch(err => console.error('MongoDB connection error:', err));
 
 
 //mongoose.connect("mongodb+srv://reactdeveloper:iBvIEUFL0KVglz6h@adinnoutdoor.ydi5rnb.mongodb.net/?retryWrites=true&w=majority&appName=AdinnOutdoor");
